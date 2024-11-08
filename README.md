@@ -31,3 +31,9 @@ GetTopPalletsByBoxExpiration: Этот метод выбирает топ-3 па
 Создает экземпляр WarehouseService, передавая строку подключения к базе данных.
 Вызывает метод GetPalletsGroupedByExpirationAndWeight для получения всех паллет, сгруппированных по сроку годности и отсортированных по весу, и выводит их в консоль.
 Вызывает метод GetTopPalletsByBoxExpiration для получения топ-3 паллет с наибольшим сроком годности коробок, отсортированных по объему, и выводит их в консоль.
+
+!!
+Скачать SQL скрипт Monopoly.sql.
+Изменить строку подключения в программе. 
+Класс Program.cs 9 строка: var connectionString = @"Data Source=...;Initial Catalog=monopoly;Integrated Security=True";
+!!
